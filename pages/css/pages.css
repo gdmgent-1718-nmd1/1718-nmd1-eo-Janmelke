@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
@@ -9,10 +23,154 @@ body {
     color: #333;
     line-height: 1.5em;
     padding: 25px;
+    width: 900px;
+    margin: 0 auto;
+    background: white;
 }
-
+html{
+    background: #EEE
+}
 img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
+*{
+    box-sizing: border-box;
+}
 
 /* Voeg jouw css hieraan toe */
+.logo{
+    font-family: Oswald;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 121px;
+    color: #B7FFF9;
+    line-height: 1em;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.navi{
+    font-family:"din alternate";
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 39px;
+    color: #C9c9c9;
+    line-height: 1em;
+    margin-bottom: 2px;
+}
+.navihi{
+    font-family:"din alternate";
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 45px;
+    color: #FFFFFF;
+    line-height: 1em;
+    margin-bottom: 2px;
+    background: #C9C9C9;
+    padding: 5px;
+}
+.subhe{
+    font-family:"din alternate";
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 26px;
+    color: #FFFFFF;
+    line-height: 1em;
+    margin-bottom: 2px;
+    background: #C9C9C9;
+    padding: 5px;
+}
+.page{
+    font-family:"oswald";
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #FFFFFF;
+    line-height: 1em;
+    margin-bottom: 2px;
+    background: #C9C9C9;
+    padding: 5px;
+}
+.intro{
+    font-family:"din condensed";
+    font-weight: normal;
+    font-size: 23px;
+    color: #FFFFFF;
+    line-height: 1em;
+    margin-bottom: 2px;
+    background: #C9C9C9;
+    padding: 5px;
+}
+.live{
+    font-family:"arial";
+    font-weight: normal;
+    font-size: 25px;
+    color: #FFFFFF;
+    line-height: 1em;
+    margin-bottom: 2px;
+    background: #C9C9C9;
+    padding: 5px;
+}
+.regular{
+    font-family:"din alternate";
+    font-weight: normal;
+    font-size: 23px;
+    color: #FFFFFF;
+    line-height: 1em;
+    margin-bottom: 2px;
+    background: #C9C9C9;
+    padding: 5px;
+}
+.footer{
+    font-family:"din condensed";
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 39px;
+    color: #FFFFFF;
+    line-height: 1em;
+    margin-bottom: 2px;
+    background: #C9C9C9;
+    padding: 5px;
+}
+.type{
+    font-family:"arial";
+    font-weight: normal;
+    font-size: 23px;
+    color: #000;
+    line-height: 1em;
+    margin-bottom: 2px;
+    padding: 5px;
+}
+.news{
+    font-family:"oswald";
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 55px;
+    color: #FFE557;
+    line-height: 1em;
+    margin-bottom: 2px;
+    padding: 5px;
+}
+.color{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 1em;
+    text-align-last: center;
+    padding-top: 90px;
+}
+.one{ background: #D16347;}
+.two{ background: #2C2C2C;}
+.three{ background: #003B3B;}
+.four{ background: #C9C9C9; color: black;}
+.five{ background: #3B3B3B;}
+.six{ background: #000000;}
+.seven{ background: #00F5E2; color: black;}
+.eight{ background: #FFE557; color: black;}
+.nine{ background: #F798FF; color: black;}
+.ten{ background: #00C32E; color: black;}
+
+
+
